@@ -11,8 +11,8 @@ warnings.filterwarnings("ignore")
 app = Flask(__name__)
 
 # ====================== CONFIGURACIÓN ======================
-   import os
-   TELEGRAM_BOT_TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN")
+import os
+TELEGRAM_BOT_TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN")
 TELEGRAM_CHAT_ID = "1124722713"
 
 PIP = 0.25
